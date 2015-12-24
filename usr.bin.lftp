@@ -14,11 +14,6 @@
   /etc/terminfo/x/xterm r,
   /lib/terminfo/x/xterm r,
 
-  /etc/nsswitch.conf rw,
-  /etc/host.conf rw,
-  /etc/resolv.conf rw,
-  /etc/hosts rw,
-
   /home/*/.config/lftp/rc r,
   /home/*/.lftprc r,
   /home/*/.netrc r,
