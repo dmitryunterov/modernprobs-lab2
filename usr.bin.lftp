@@ -7,7 +7,7 @@
   #include <abstractions/user-download>
 
   /etc/lftp.conf r,
-  /usr/share/lftp/* rw,
+  /usr/share/lftp rw,
   /usr/bin/lftp mr,
   /etc/localtime r,
   /etc/inputrc rw,
@@ -19,4 +19,8 @@
   /etc/resolv.conf rw,
   /etc/hosts rw,
 
+  /home/*/.config/lftp/rc r,
+  /home/*/.lftprc r,
+  /home/*/.netrc r,
+  /home/*/.local/share/lftp/* rw,
 }
