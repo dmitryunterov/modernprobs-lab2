@@ -1,4 +1,3 @@
-# Last Modified: Thu Dec 24 11:57:48 2015
 #include <tunables/global>
 
 /usr/bin/lftp {
