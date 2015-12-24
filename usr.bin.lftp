@@ -1,0 +1,15 @@
+# Last Modified: Thu Dec 24 11:57:48 2015
+#include <tunables/global>
+
+/usr/bin/lftp {
+  #include <abstractions/base>
+  #include <abstractions/nameservice>
+  /etc/lftp.conf r,
+  /usr/bin/lftp mr,
+  /home/*/.local/share/lftp/rl_history rw,
+  /etc/inputrc rw,
+  /etc/nsswitch.conf rw,
+  /etc/host.conf rw,
+  /etc/resolv.conf rw,
+  /etc/hosts rw,
+}
