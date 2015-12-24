@@ -6,7 +6,9 @@
   #include <abstractions/nameservice>
   /etc/lftp.conf r,
   /usr/bin/lftp mr,
-  /home/*/.local/share/lftp/rl_history rw,
+  @{HOME}/ rw,
+  /home/*/.local/share/lftp/* rw,  
+  /home/*/* rw,
   /etc/inputrc rw,
   /etc/nsswitch.conf rw,
   /etc/host.conf rw,
