@@ -4,14 +4,19 @@
 /usr/bin/lftp {
   #include <abstractions/base>
   #include <abstractions/nameservice>
+  #include <abstractions/user-download>
+
   /etc/lftp.conf r,
+  /usr/share/lftp/* rw,
   /usr/bin/lftp mr,
-  @{HOME}/ rw,
-  /home/*/.local/share/lftp/* rw,  
-  /home/*/* rw,
+  /etc/localtime r,
   /etc/inputrc rw,
+  /etc/terminfo/x/xterm r,
+  /lib/terminfo/x/xterm r,
+
   /etc/nsswitch.conf rw,
   /etc/host.conf rw,
   /etc/resolv.conf rw,
   /etc/hosts rw,
+
 }
