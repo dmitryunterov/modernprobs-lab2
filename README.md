@@ -16,6 +16,7 @@ sudo aa-complain /usr/bin/lftp;
 Довольно скоро появился [вот этот файл](https://github.com/dmitryunterov/modernprobs-lab2/blob/master/usr.bin.lftp).
 
 Проведённые тесты показывают, что правило работает (За предоставленный для тестирования ftp-сервер спасибо Стасу Габенову):
+
 ![Скриншот с пруфами](https://github.com/dmitryunterov/modernprobs-lab2/blob/master/screenshot.png)
 
 
