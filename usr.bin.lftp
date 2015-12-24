@@ -22,5 +22,7 @@
   /home/*/.config/lftp/rc r,
   /home/*/.lftprc r,
   /home/*/.netrc r,
-  /home/*/.local/share/lftp/* rw,
+  /home/*/.local/share/lftp/cwd_history rwk,
+  /home/*/.local/share/lftp/rl_history rwk,
+  /home/*/.local/share/lftp/transfer_log ra,
 }
